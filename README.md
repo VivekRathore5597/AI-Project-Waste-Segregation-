@@ -1,0 +1,2 @@
+# AI-Project-Waste-Segregation-
+AI BASED WASTE SEGREGATION SYSTEM
