@@ -3,10 +3,10 @@
 
 This project classifies waste images into categories like cardboard, glass, metal, paper, plastic, and trash using a Convolutional Neural Network (CNN) and deploys it using Streamlit.
 
-## 💾 Dataset
+## Dataset
 Use the [Garbage Classification Dataset](https://www.kaggle.com/datasets/sumn2u/garbage-classification-v2) and place the organized image folders into `dataset/`.
 
-## 🚀 How to Run
+## How to Run
 
 1. Install dependencies:
 ```bash
@@ -22,3 +22,7 @@ Run notebooks/waste_classification.ipynb
 ```bash
 streamlit run app/app.py
 ```
+
+## Drive link for model
+import gdown
+gdown.download(https://drive.google.com/file/d/1Irr3zwqPbkYE4CGLEOg8rhrvXzRf4Y86/view?usp=drive_link)
