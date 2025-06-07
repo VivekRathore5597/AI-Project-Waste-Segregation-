@@ -10,7 +10,7 @@ model_path = os.path.join("model", "waste_classifier.h5")
 model = load_model(model_path)
 classes = ['cardboard', 'compost', 'glass', 'metal', 'paper', 'plastic', 'trash']
 
-st.title("♻️ AI Waste Segregation")
+st.title("AI Waste Segregation")
 st.write("Upload a waste image and get classification results instantly!")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
